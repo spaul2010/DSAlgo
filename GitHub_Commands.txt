@@ -1,0 +1,8 @@
+Example commands to add 22_isPalindrome.c into repo:
+git add .\22_isPalindrome.c
+git commit -m "22_Palindrome problem"
+git remote add origin git@github.com:sukumarpaul/DSAlgo.git
+git push -u origin master
+
+
+
