@@ -65,14 +65,7 @@ void __segregateEvenOdd(struct node **tempHead, struct node **even, struct node 
 	struct node *evenLastPtr = NULL;
 
 	while (temp) {
-		if (temp->data % 2) {
-			// odd
-			appendNode(odd, temp->data);
-		}
-		else {
-			//even
-			evenLastPtr = appendNode(even, temp->data);
-		}
+		(temp->data % 2) ? appendNode(odd, temp->data) : (evenLastPtr = appendNode(even, temp->data));
 		temp = temp->link;
 	}
 
