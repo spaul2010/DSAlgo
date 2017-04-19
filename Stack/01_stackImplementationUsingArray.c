@@ -54,3 +54,20 @@ void main() {
 	pop();
 	pop();
 }
+
+/*
+Sample Output: 
+
+10 pushed to stack
+20 pushed to stack
+30 pushed to stack
+40 pushed to stack
+50 pushed to stack
+Stack Overflow!!
+50 popped from stack
+40 popped from stack
+30 popped from stack
+20 popped from stack
+10 popped from stack
+Stack underflow!!
+*/
