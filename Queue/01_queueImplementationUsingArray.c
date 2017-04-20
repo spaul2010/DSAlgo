@@ -1,7 +1,7 @@
 /*
 Problem Statement : Implement Queue data structure using array.
 
-Time Complexities of operations on stack: O(1)
+Time Complexities of operations on Queue: O(1)
 */
 
 #include <stdio.h>
